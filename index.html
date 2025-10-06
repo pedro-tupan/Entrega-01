@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Plataforma web para ONGs: projetos, doações, voluntariado e transparência.">
+  <title>Início • ONG</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topo" role="banner">
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <nav aria-label="Principal">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="projetos.html">Projetos</a>
+    <a href="voluntariado.html">Voluntariado</a>
+    <a href="doacoes.html">Doações</a>
+    <a href="transparencia.html">Transparência</a>
+    <a href="contato.html">Contato</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+</header>
+<main id="conteudo" tabindex="-1">
+
+<section aria-labelledby="hero">
+  <h1 id="hero">Bem-vindo à Plataforma da ONG</h1>
+  <picture>
+    <source srcset="https://source.unsplash.com/featured/1200x800?volunteer" type="image/jpeg">
+    <img src="https://source.unsplash.com/featured/1200x800?community" alt="Voluntários em ação" width="1200" height="800" loading="lazy" referrerpolicy="no-referrer">
+  </picture>
+  <p>Transparência e impacto social guiando nossas ações.</p>
+</section>
+<section aria-labelledby="indicadores" class="grid grid-3">
+  <h2 id="indicadores">Indicadores de Impacto</h2>
+  <canvas id="graficoPizza" width="360" height="220" aria-label="Distribuição de recursos por projeto" role="img"></canvas>
+  <canvas id="graficoLinha" width="360" height="220" aria-label="Evolução de voluntários ao longo do tempo" role="img"></canvas>
+  <canvas id="graficoBarras" width="360" height="220" aria-label="Impacto social por região" role="img"></canvas>
+</section>
+<section aria-labelledby="depo">
+  <h2 id="depo">Depoimentos</h2>
+  <audio controls preload="metadata">
+    <source src="assets/audio/depoimento.mp3" type="audio/mpeg">
+  </audio>
+</section>
+<section aria-labelledby="video">
+  <h2 id="video">Vídeo Institucional</h2>
+  <video controls preload="metadata" width="640">
+    <source src="assets/video/institucional.mp4" type="video/mp4">
+  </video>
+</section>
+
+</main>
+<footer class="rodape" role="contentinfo">
+  <small>&copy; 2025 ONG — versão simples v3.</small>
+</footer>
+<script src="js/main.js" defer></script>
+<script src="js/charts.js" defer></script>
+</body>
+</html>

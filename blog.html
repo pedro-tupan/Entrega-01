@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Plataforma web para ONGs: projetos, doações, voluntariado e transparência.">
+  <title>Blog • ONG</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topo" role="banner">
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <nav aria-label="Principal">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="projetos.html">Projetos</a>
+    <a href="voluntariado.html">Voluntariado</a>
+    <a href="doacoes.html">Doações</a>
+    <a href="transparencia.html">Transparência</a>
+    <a href="contato.html">Contato</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+</header>
+<main id="conteudo" tabindex="-1">
+
+<article>
+  <header><h1>Blog / Notícias</h1></header>
+  <section><h2>Post de exemplo</h2><p>Bem-vindo ao nosso blog.</p></section>
+  <section aria-labelledby="news">
+    <h2 id="news">Newsletter</h2>
+    <form id="formNewsletter" novalidate>
+      <label>E-mail <input type="email" name="email" required></label>
+      <fieldset><legend>Preferências</legend>
+        <label><input type="checkbox" name="tema" value="projetos"> Projetos</label>
+        <label><input type="checkbox" name="tema" value="voluntariado"> Voluntariado</label>
+        <label><input type="checkbox" name="tema" value="transparencia"> Transparência</label>
+      </fieldset>
+      <button type="submit">Assinar</button>
+    </form>
+  </section>
+</article>
+
+</main>
+<footer class="rodape" role="contentinfo">
+  <small>&copy; 2025 ONG — versão simples v3.</small>
+</footer>
+<script src="js/main.js" defer></script>
+<script src="js/charts.js" defer></script>
+</body>
+</html>
